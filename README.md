@@ -20,14 +20,13 @@
 To get started clone this project or fork it and add the package to your laravel project.
 
 ### Features
-- [ ] Blade views inside the package
-- [ ] Routing
-- [ ] Migrations
-- [ ] MVC
-- [ ] Tailwind
-- [ ] Webpack 
-- [ ] pnpm 
-- 
+-  Blade views inside the package
+-  Routing
+-  Migrations
+-  MVC
+-  Tailwind
+-  Webpack 
+-  pnpm 
 ### Releases
 
 version 1.0.0
