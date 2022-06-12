@@ -1,0 +1,48 @@
+{
+  "name": "laravel-boilerplate",
+  "version": "1.0.0",
+  "description": "Package boilerplate for laravel",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "mix watch",
+    "dev": "mix",
+    "build": "mix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeri-Abbo/laravel-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joeri-Abbo/laravel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Joeri-Abbo/laravel-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "autoprefixer": "^10.4.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "flowbite": "^1.4.7",
+    "install": "^0.13.0",
+    "mix-tailwindcss": "^1.3.0",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "postcss-preset-env": "^7.7.1",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.1.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "postcss-import": "^14.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+name: Psalm
+
+on: ['push']
+
+jobs:
+  psalm:
+    name: psalm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: Run psalm
+        run: ./vendor/bin/psalm
+

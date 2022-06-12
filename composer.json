@@ -1,0 +1,66 @@
+{
+  "name": "tracefy/laravel-package-boilerplate",
+  "description": "Laravel boilerplate Package",
+  "type": "library",
+  "version": "dev-master",
+  "keywords": [
+    "laravel",
+    "boilerplate",
+    "package",
+    "webpack",
+    "blade",
+    "pnpm",
+    "github-actions",
+    "Tailwind CSS",
+    "package-boilerplate"
+  ],
+  "authors": [
+    {
+      "name": "Joeri Abbo",
+      "email": "joeri@tracefy.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.28",
+    "orchestra/testbench": "^7.3",
+    "pestphp/pest": "^1.21",
+    "phpunit/phpunit": "^9.5.10",
+    "squizlabs/php_codesniffer": "^3.6.2",
+    "vimeo/psalm": "^4.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoeriAbbo\\Boilerplate\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JoeriAbbo\\Boilerplate\\Tests\\": "tests",
+      "JoeriAbbo\\Boilerplate\\Database\\Factories\\": "database/factories/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "phpstan/extension-installer": true,
+      "composer/package-versions-deprecated": true,
+      "ergebnis/composer-normalize": true
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JoeriAbbo\\Boilerplate\\BoilerplatePackageServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php ./vendor/bin/testbench package:discover --ansi"
+    ],
+    "test": "vendor/bin/pest"
+  }
+}

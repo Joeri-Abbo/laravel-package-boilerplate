@@ -1,0 +1,20 @@
+name: normalize php
+
+on:
+  push:
+    paths:
+      - "composer.json"
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+      - name: normalize composer.json
+        run: php vendor/bin/phpcbf
+      - uses: stefanzweifel/git-auto-commit-action@v4.0.0
+        with:
+          commit_message: Fix formatting with phpcbf
