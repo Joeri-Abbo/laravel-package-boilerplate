@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class phpUnitTest extends TestCase
 {
-
     /**
      * @test
      */

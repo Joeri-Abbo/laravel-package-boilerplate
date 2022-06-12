@@ -31,11 +31,11 @@ class BoilerplatePackageServiceProvider extends ServiceProvider
         //
     }
 
-    public function boot()
+    public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             // Add configs
-            $this->publishes($this->getMigrations(),/**/ 'migrations');
+            $this->publishes($this->getMigrations(), /**/ 'migrations');
 
             $this->publishes([__DIR__ . '/../config/config.php' => config_path(self::PACKAGE_NAME . '.php'),], 'config');
 
@@ -49,5 +49,4 @@ class BoilerplatePackageServiceProvider extends ServiceProvider
             Installer::class,
         ]);
     }
-
 }
