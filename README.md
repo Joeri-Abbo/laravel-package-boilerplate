@@ -7,6 +7,7 @@
 [![Test](https://github.com/Joeri-Abbo/laravel-package-boilerplate/actions/workflows/psalm.yml/badge.svg)](https://github.com/Joeri-Abbo/laravel-package-boilerplate/actions/workflows/psalm.yml)
 [![Test](https://github.com/Joeri-Abbo/laravel-package-boilerplate/actions/workflows/composer-normalize.yml/badge.svg)](https://github.com/Joeri-Abbo/laravel-package-boilerplate/actions/workflows/composer-normalize.yml)
 [![Test](https://github.com/Joeri-Abbo/laravel-package-boilerplate/actions/workflows/php-normalize.yml/badge.svg)](https://github.com/Joeri-Abbo/laravel-package-boilerplate/actions/workflows/php-normalize.yml)
+[![DeepScan grade](https://deepscan.io/api/teams/18068/projects/21390/branches/613152/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=18068&pid=21390&bid=613152)
 
 ## Getting Started
 
