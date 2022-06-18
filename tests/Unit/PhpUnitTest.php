@@ -4,7 +4,7 @@ namespace Tracefy\Boilerplate\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
-class phpUnitTest extends TestCase
+class PhpUnitTest extends TestCase
 {
     /**
      * @test
