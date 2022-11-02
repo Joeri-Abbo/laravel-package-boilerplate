@@ -21,10 +21,10 @@
     }
   ],
   "require": {
-    "php": "^8.1"
+    "php": "^8.1",
+    "ergebnis/composer-normalize": "^2.28"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.28",
     "orchestra/testbench": "^7.3",
     "pestphp/pest": "^1.21",
     "phpunit/phpunit": "^9.5.10",
