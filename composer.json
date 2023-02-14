@@ -22,7 +22,7 @@
   ],
   "require": {
     "php": "^8.1",
-    "ergebnis/composer-normalize": "^2.28"
+    "ergebnis/composer-normalize": "^2.29"
   },
   "require-dev": {
     "orchestra/testbench": "^7.3 || ^8.0",
