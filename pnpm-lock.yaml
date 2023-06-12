@@ -19,8 +19,8 @@ devDependencies:
     specifier: ^7.18.2
     version: 7.18.2(@babel/core@7.18.5)
   autoprefixer:
-    specifier: ^10.4.7
-    version: 10.4.7(postcss@8.4.14)
+    specifier: ^10.4.14
+    version: 10.4.14(postcss@8.4.14)
   babel-loader:
     specifier: ^9.0.1
     version: 9.1.2(@babel/core@7.18.5)(webpack@5.73.0)
@@ -1989,22 +1989,6 @@ packages:
       picocolors: 1.0.0
       postcss: 8.4.14
       postcss-value-parser: 4.2.0
-    dev: true
-
-  /autoprefixer@10.4.7(postcss@8.4.14):
-    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.20.4
-      caniuse-lite: 1.0.30001356
-      fraction.js: 4.2.0
-      normalize-range: 0.1.2
-      picocolors: 1.0.0
-      postcss: 8.4.14
-      postcss-value-parser: 4.2.0
 
   /babel-loader@8.2.5(@babel/core@7.18.5)(webpack@5.73.0):
     resolution: {integrity: sha512-OSiFfH89LrEMiWd4pLNqGz4CwJDtbs2ZVc+iGu2HrkRfPxId9F2anQj38IxWpmRfsUY0aBZYi1EFcd3mhtRMLQ==}
@@ -2260,9 +2244,6 @@ packages:
       caniuse-lite: 1.0.30001502
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
-
-  /caniuse-lite@1.0.30001356:
-    resolution: {integrity: sha512-/30854bktMLhxtjieIxsrJBfs2gTM1pel6MXKF3K+RdIVJZcsn2A2QdhsuR4/p9+R204fZw0zCBBhktX8xWuyQ==}
 
   /caniuse-lite@1.0.30001502:
     resolution: {integrity: sha512-AZ+9tFXw1sS0o0jcpJQIXvFTOB/xGiQ4OQ2t98QX3NDn2EZTSRBC801gxrsGgViuq2ak/NLkNgSNEPtCr5lfKg==}
@@ -3623,7 +3604,7 @@ packages:
       '@types/imagemin-mozjpeg': 8.0.1
       '@types/imagemin-optipng': 5.2.1
       '@types/imagemin-svgo': 8.0.1
-      autoprefixer: 10.4.7(postcss@8.4.14)
+      autoprefixer: 10.4.14(postcss@8.4.14)
       babel-loader: 8.2.5(@babel/core@7.18.5)(webpack@5.73.0)
       chalk: 4.1.2
       chokidar: 3.5.3
