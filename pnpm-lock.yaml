@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^6.8.1
     version: 6.8.1(webpack@5.88.1)
   flowbite:
-    specifier: ^1.6.6
-    version: 1.6.6
+    specifier: ^1.7.0
+    version: 1.7.0
   install:
     specifier: ^0.13.0
     version: 0.13.0
@@ -3161,8 +3161,8 @@ packages:
       locate-path: 5.0.0
       path-exists: 4.0.0
 
-  /flowbite@1.6.6:
-    resolution: {integrity: sha512-T+IaFikHELo1PBKfT/axDqhAmKQLfm/dxVch2r07TZ+IcKwkorZjzwkVuw3OslTETniRIUf2qQvEhxk3bQCaew==}
+  /flowbite@1.7.0:
+    resolution: {integrity: sha512-OTTmnhRgv85Rs+mcMaVU7zB6EvRQs7BaQziyMUsZLRjW9aUpeQyqKjLmxsVMMCdr8isYPCLd6UL7X1IaSVI0WQ==}
     dependencies:
       '@popperjs/core': 2.11.5
       mini-svg-data-uri: 1.4.4
