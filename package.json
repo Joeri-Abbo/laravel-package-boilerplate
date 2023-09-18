@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Joeri-Abbo/laravel-boilerplate#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.19",
+    "@babel/core": "^7.22.20",
     "@babel/preset-env": "^7.22.20",
     "autoprefixer": "^10.4.15",
     "babel-loader": "^9.1.3",
