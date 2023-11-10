@@ -28,7 +28,7 @@
     "autoprefixer": "^10.4.16",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.8.1",
-    "flowbite": "^2.0.0",
+    "flowbite": "^2.1.1",
     "install": "^0.13.0",
     "mix-tailwindcss": "^1.3.0",
     "postcss": "^8.4.31",
