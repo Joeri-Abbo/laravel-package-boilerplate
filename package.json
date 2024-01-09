@@ -27,7 +27,7 @@
     "@babel/preset-env": "^7.23.8",
     "autoprefixer": "^10.4.16",
     "babel-loader": "^9.1.3",
-    "css-loader": "^6.8.1",
+    "css-loader": "^6.9.0",
     "flowbite": "^2.2.1",
     "install": "^0.13.0",
     "mix-tailwindcss": "^1.3.0",
