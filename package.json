@@ -31,7 +31,7 @@
     "flowbite": "^2.3.0",
     "install": "^0.13.0",
     "mix-tailwindcss": "^1.3.0",
-    "postcss": "^8.4.37",
+    "postcss": "^8.4.38",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^9.5.2",
     "style-loader": "^3.3.4",
