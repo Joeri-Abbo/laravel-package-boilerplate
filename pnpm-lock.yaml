@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^8.1.1
     version: 8.1.1(postcss@8.4.38)(webpack@5.91.0)
   postcss-preset-env:
-    specifier: ^9.5.3
-    version: 9.5.3(postcss@8.4.38)
+    specifier: ^9.5.4
+    version: 9.5.4(postcss@8.4.38)
   style-loader:
     specifier: ^3.3.4
     version: 3.3.4(webpack@5.91.0)
@@ -1393,8 +1393,8 @@ packages:
       postcss-selector-parser: 6.0.13
     dev: true
 
-  /@csstools/postcss-light-dark-function@1.0.2(postcss@8.4.38):
-    resolution: {integrity: sha512-9OUOKCXzYQFdvpRIz7vDucZiRupwFExDAk0YEPYCuKR1ZzQiqNUJSF7/OazjrNlwgt8lDWN9ADxmx5Iapyy6Aw==}
+  /@csstools/postcss-light-dark-function@1.0.3(postcss@8.4.38):
+    resolution: {integrity: sha512-izW8hvhOqJlarLcGXO5PSylW9pQS3fytmhRdx2/e1oZFi15vs7ZShOHcREHJ3FfGdYqDA10cP9uhH0A3hmm1Rw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -2447,12 +2447,9 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001591
+      caniuse-lite: 1.0.30001599
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
-
-  /caniuse-lite@1.0.30001591:
-    resolution: {integrity: sha512-PCzRMei/vXjJyL5mJtzNiUCKP59dm8Apqc3PH8gJkMnMXZGox93RbE76jHsmLwmIo6/3nsYIpJtx0O7u5PqFuQ==}
 
   /caniuse-lite@1.0.30001599:
     resolution: {integrity: sha512-LRAQHZ4yT1+f9LemSMeqdMpMxZcc4RMWdj4tiFe3G8tNkWK+E58g+/tzotb5cU6TbcVJLr4fySiAW7XmxQvZQA==}
@@ -5160,8 +5157,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-preset-env@9.5.3(postcss@8.4.38):
-    resolution: {integrity: sha512-uOBG5kvYMxZGuepbAKr563PCB+syENPa1C9kPA8IvDGraVkrEUk//31oaO06oj9VtuujVtsgXHI7qbQynCuaVQ==}
+  /postcss-preset-env@9.5.4(postcss@8.4.38):
+    resolution: {integrity: sha512-o/jOlJjhm4f6rI5q1f+4Og3tz1cjaO50er9ndk7ZdcXHjWOH49kMAhqDC/nQifypQkOAiAmF46dPt3pZM+Cwbg==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
@@ -5177,7 +5174,7 @@ packages:
       '@csstools/postcss-ic-unit': 3.0.6(postcss@8.4.38)
       '@csstools/postcss-initial': 1.0.1(postcss@8.4.38)
       '@csstools/postcss-is-pseudo-class': 4.0.6(postcss@8.4.38)
-      '@csstools/postcss-light-dark-function': 1.0.2(postcss@8.4.38)
+      '@csstools/postcss-light-dark-function': 1.0.3(postcss@8.4.38)
       '@csstools/postcss-logical-float-and-clear': 2.0.1(postcss@8.4.38)
       '@csstools/postcss-logical-overflow': 1.0.1(postcss@8.4.38)
       '@csstools/postcss-logical-overscroll-behavior': 1.0.1(postcss@8.4.38)
