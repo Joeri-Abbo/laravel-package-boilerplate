@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^9.5.4
     version: 9.5.4(postcss@8.4.38)
   style-loader:
-    specifier: ^3.3.4
-    version: 3.3.4(webpack@5.91.0)
+    specifier: ^4.0.0
+    version: 4.0.0(webpack@5.91.0)
   tailwindcss:
     specifier: ^3.4.3
     version: 3.4.3
@@ -88,10 +88,6 @@ packages:
 
   /@babel/compat-data@7.23.5:
     resolution: {integrity: sha512-uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==}
-    engines: {node: '>=6.9.0'}
-
-  /@babel/compat-data@7.24.1:
-    resolution: {integrity: sha512-Pc65opHDliVpRHuKfzI+gSA4zcgr65O4cl64fFJIWEEh8JoHIHh0Oez1Eo8Arz8zq/JhgKodQaxEwUPRtZylVA==}
     engines: {node: '>=6.9.0'}
 
   /@babel/compat-data@7.24.4:
@@ -419,7 +415,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/compat-data': 7.24.1
+      '@babel/compat-data': 7.24.4
       '@babel/core': 7.24.4
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-plugin-utils': 7.24.0
@@ -2240,7 +2236,7 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
-      '@babel/compat-data': 7.24.1
+      '@babel/compat-data': 7.24.4
       '@babel/core': 7.24.4
       '@babel/helper-define-polyfill-provider': 0.3.1(@babel/core@7.24.4)
       semver: 6.3.1
@@ -5927,11 +5923,11 @@ packages:
       schema-utils: 3.2.0
       webpack: 5.91.0(webpack-cli@5.1.4)
 
-  /style-loader@3.3.4(webpack@5.91.0):
-    resolution: {integrity: sha512-0WqXzrsMTyb8yjZJHDqwmnwRJvhALK9LfRtRc6B4UTWe8AijYLZYZ9thuJTZc2VfQWINADW/j+LiJnfy2RoC1w==}
-    engines: {node: '>= 12.13.0'}
+  /style-loader@4.0.0(webpack@5.91.0):
+    resolution: {integrity: sha512-1V4WqhhZZgjVAVJyt7TdDPZoPBPNHbekX4fWnCJL1yQukhCeZhJySUL+gL9y6sNdN95uEOS83Y55SqHcP7MzLA==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
-      webpack: ^5.0.0
+      webpack: ^5.27.0
     dependencies:
       webpack: 5.91.0(webpack-cli@5.1.4)
     dev: true
