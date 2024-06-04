@@ -3273,16 +3273,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.72.4",
+            "version": "2.72.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "117671bd1a44c819b941dcd152bd0268466464e0"
+                "reference": "afd46589c216118ecd48ff2b95d77596af1e57ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/117671bd1a44c819b941dcd152bd0268466464e0",
-                "reference": "117671bd1a44c819b941dcd152bd0268466464e0",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/afd46589c216118ecd48ff2b95d77596af1e57ed",
+                "reference": "afd46589c216118ecd48ff2b95d77596af1e57ed",
                 "shasum": ""
             },
             "require": {
@@ -3376,7 +3376,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-03T15:00:23+00:00"
+            "time": "2024-06-03T19:18:41+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
@@ -3956,16 +3956,16 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v8.23.1",
+            "version": "v8.23.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "70d661a02095dc7d6b667a557be268e805394d8d"
+                "reference": "c9f89b66aaa245a2e36f046aa431587ba46a3f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/70d661a02095dc7d6b667a557be268e805394d8d",
-                "reference": "70d661a02095dc7d6b667a557be268e805394d8d",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/c9f89b66aaa245a2e36f046aa431587ba46a3f2e",
+                "reference": "c9f89b66aaa245a2e36f046aa431587ba46a3f2e",
                 "shasum": ""
             },
             "require": {
@@ -3973,7 +3973,7 @@
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^10.48.10",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^8.24.2",
+                "orchestra/testbench-core": "^8.24.3",
                 "orchestra/workbench": "^1.4.1 || ^8.5",
                 "php": "^8.1",
                 "phpunit/phpunit": "^9.6 || ^10.1",
@@ -4005,22 +4005,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v8.23.1"
+                "source": "https://github.com/orchestral/testbench/tree/v8.23.2"
             },
-            "time": "2024-06-01T10:39:39+00:00"
+            "time": "2024-06-04T12:24:55+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v8.24.2",
+            "version": "v8.24.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "756519effeac591971c313ee830ed625ffac8681"
+                "reference": "c4daf2f1929242f4e4cb33b5ebdaaf631df30a46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/756519effeac591971c313ee830ed625ffac8681",
-                "reference": "756519effeac591971c313ee830ed625ffac8681",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/c4daf2f1929242f4e4cb33b5ebdaaf631df30a46",
+                "reference": "c4daf2f1929242f4e4cb33b5ebdaaf631df30a46",
                 "shasum": ""
             },
             "require": {
@@ -4099,7 +4099,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-06-01T09:24:14+00:00"
+            "time": "2024-06-04T05:00:04+00:00"
         },
         {
             "name": "orchestra/workbench",
