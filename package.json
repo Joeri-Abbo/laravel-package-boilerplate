@@ -33,7 +33,7 @@
     "mix-tailwindcss": "^1.3.0",
     "postcss": "^8.5.1",
     "postcss-loader": "^8.1.1",
-    "postcss-preset-env": "^10.1.3",
+    "postcss-preset-env": "^10.2.4",
     "style-loader": "^4.0.0",
     "tailwindcss": "^4.1.11",
     "webpack": "^5.97.1",
