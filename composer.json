@@ -28,7 +28,7 @@
     "orchestra/testbench": "^7.3 || ^8.0",
     "pestphp/pest": "^1.21",
     "phpunit/phpunit": "^9.5.10",
-    "squizlabs/php_codesniffer": "^3.6.2",
+    "squizlabs/php_codesniffer": "^3.6.2 || ^4.0.0",
     "vimeo/psalm": "^4.23 || ^5.0"
   },
   "autoload": {
