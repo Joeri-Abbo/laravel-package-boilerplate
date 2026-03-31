@@ -5542,16 +5542,16 @@
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v9.21.0",
+            "version": "v9.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "36ac821a6ee1960b1b8f7fa8c32a98ff286d9fb3"
+                "reference": "6c63837e41fa1dae1d500070bb7c7b496d7fcf37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/36ac821a6ee1960b1b8f7fa8c32a98ff286d9fb3",
-                "reference": "36ac821a6ee1960b1b8f7fa8c32a98ff286d9fb3",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/6c63837e41fa1dae1d500070bb7c7b496d7fcf37",
+                "reference": "6c63837e41fa1dae1d500070bb7c7b496d7fcf37",
                 "shasum": ""
             },
             "require": {
@@ -5633,7 +5633,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2026-03-23T23:04:08+00:00"
+            "time": "2026-03-31T03:06:20+00:00"
         },
         {
             "name": "orchestra/workbench",
