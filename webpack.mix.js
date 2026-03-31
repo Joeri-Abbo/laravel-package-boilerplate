@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-require('mix-tailwindcss');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,10 +13,9 @@ require('mix-tailwindcss');
 
 mix.setPublicPath(`./resources/assets/build/`);
 
-mix.tailwind('./tailwind.config.js')
-    .css('resources/assets/src/app.css', 'css', [
+mix.css('resources/assets/src/app.css', 'css', [
         require('postcss-import'),
-        require('tailwindcss'),
+        require('@tailwindcss/postcss'),
     ])
     .js('resources/assets/src/app.js', 'js')
     .version();
